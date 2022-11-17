@@ -1,4 +1,4 @@
-package com.educaweb.course.entities;
+package com.educandoweb.course.entities;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -8,6 +8,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+
 
 @Entity
 @Table(name = "tb_user")
